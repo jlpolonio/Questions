@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { Question } from "./Question";
-import { Repeatable } from "./Repeatable";
+import { Question } from "./components/Question";
+import { Repeatable } from "./components/Repeatable";
 
 const listQuestion = {
   name: "Jose Luis",
