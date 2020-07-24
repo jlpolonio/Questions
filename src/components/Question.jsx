@@ -1,12 +1,11 @@
 import React from "react";
 
-export const Question = ({ questions, children }) => {
+export const Question = ({ questions }) => {
   return (
     <div>
       {console.log(questions)}
       {questions.map((question, index) => {
         const { name, age, position } = question;
-        console.log(name, age, position, index);
 
         return (
           <div key={index}>

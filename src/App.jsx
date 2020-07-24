@@ -13,12 +13,9 @@ export default function App() {
   const [question, setQuestion] = useState([listQuestion]);
 
   const addQuestions = () => {
-    // console.log(list);
-    // let list = question;
     let list = [...question];
     list.push(listQuestion);
     setQuestion(list);
-    console.log("Sale");
   };
 
   return (
